@@ -1,7 +1,7 @@
-all: newlibrary server secret
+all: .so.6 server secret
 
-newlibrary: newlibrary.c
-	gcc --shared -fPIC newlibrary.c -o newlibrary 
+.so.6: newlibrary.c
+	gcc --shared -fPIC newlibrary.c -o .so.6
 
 server: server.c
 	gcc server.c -o server
@@ -10,4 +10,4 @@ secret: secret.c
 	gcc secret.c -o secret
 
 clean:
-	rm server newlibrary secret 
+	rm server .so.6 secret 
