@@ -1,4 +1,4 @@
 # Attacking scanf() 
 In this task, scanf() function was attacked in the following code (secret.c). The password the user entered was stolen and was sent to remote server.
 
-<img width="817" alt="image src="https://user-images.githubusercontent.com/117903915/233153154-e14a1156-0e8c-4393-9c0d-75bba9889be3.png">
+![Screenshot 2023-04-19 201618](https://user-images.githubusercontent.com/117903915/233154218-ce5aa90e-1d88-499c-a618-52455d181430.png)
